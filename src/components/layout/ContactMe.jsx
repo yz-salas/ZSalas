@@ -63,7 +63,10 @@ const Form = () => {
 								<br className="hidden md:block" />
 								and let's start the preparations for something big
 							</h2>
-							<Btn1 title="Go to Home" red="/" color="text-black bg-green-500 hover:bg-green-800 hover:text-white" />
+
+							{/* btn */}
+							<Btn1 title="Go to Home" red="/Zadiel-Salas/" color="text-black bg-green-500 hover:bg-green-800 hover:text-white" />
+							{/* btn */}
 						</div>
 						<div className="w-full max-w-xl xl:px-8 xl:w-5/12">
 							<div className="bg-white rounded shadow-2xl p-7 sm:p-10">

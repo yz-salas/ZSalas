@@ -100,26 +100,26 @@ const Content = () => {
 					<Icons />
 				</AnimationOpacity>
 			</section>
-			<section class="relative flex flex-col-reverse py-16 lg:flex-col">
+			<section className="relative flex flex-col-reverse py-16 lg:flex-col">
 				<AnimationLeftToRight>
-					<div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
-						<div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
-							<h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-start">
+					<div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
+						<div className="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
+							<h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-start">
 								<span className="text-cyan-500">Contact me</span>
-								<br class="hidden md:block" />
+								<br className="hidden md:block" />
 								<span className="text-cyan-500">to make your idea come true</span>
 							</h2>
-							<p class="mb-5 text-base text-gray-700 md:text-lg">You will see how I can make your idea come true, let's create something great</p>
-							<div class="mb-10 md:mb-16 lg:mb-20">
+							<p className="mb-5 text-base text-gray-700 md:text-lg">You will see how I can make your idea come true, let's create something great</p>
+							<div className="mb-10 md:mb-16 lg:mb-20">
 								<Btn1 red="/ContactMe" color="bg-blue-500 text-black hover:text-black hover:bg-blue-800" title="Contact Me" />
 							</div>
 						</div>
 					</div>
 				</AnimationLeftToRight>
 
-				<div class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+				<div className="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
 					<AnimationRightToLeft>
-						<img class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h{-96 lg:h-full" src={img} alt="" />
+						<img className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h{-96 lg:h-full" src={img} alt="" />
 					</AnimationRightToLeft>
 				</div>
 			</section>

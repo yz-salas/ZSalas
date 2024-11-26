@@ -1,11 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Btn1 = (props) => {
+export const Btn1 = (props) => {
 	return (
-		<Links to={props.red} className={`inline-block ${props.color} text-sm font-medium py-3 px-6 rounded transition`}>
+		<Link to={props.red} className={`inline-block ${props.color} text-sm font-medium py-3 px-6 rounded transition`}>
 			{props.title}
-		</Links>
+		</Link>
 	);
 };
 
-export default Btn1;
+export const BtnA = (props) => {
+	return (
+		<a href={props.red} className={`inline-block ${props.color} text-sm font-medium py-3 px-6 rounded transition`}>
+			{props.title}
+		</a>
+	);
+};
+
+export default BtnA;
