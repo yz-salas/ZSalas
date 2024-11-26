@@ -29,7 +29,7 @@ const Header = () => {
 						<div className="h-20 w-full flex-wrap flex gap-6 mt-5">
 							<BtnA color="bg-yellow-500 text-black" red="#whatdoing" title="What are your services?" />
 							<BtnA color="bg-green-500 text-black" red="#about" title="Who are you?" />
-							<BtnA color="bg-purple-500 text-black" red="/Zadiel-Salas/ContactMe" title="Contact Me" />
+							<BtnA color="bg-purple-500 text-black" red="/ContactMe" title="Contact Me" />
 							<BtnA color="bg-red-500 text-black" red="#technologies" title="What technologies do you use?" />
 						</div>
 					</div>
