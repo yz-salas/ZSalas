@@ -1,6 +1,7 @@
 {
   "name": "reactapp",
   "private": true,
+  "homepige": "http:/yz-salas.github.io/Zadiel-Salas",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
