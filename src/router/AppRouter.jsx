@@ -8,8 +8,8 @@ import ContactMe from '../components/layout/ContactMe';
 const AppRouter = () => {
 	return (
 		//* aqui estn las rutas predeterminadas para los usuaios(aqui se esta usand react router dom)
-		<Routes basename="/ZSalas">
-			<Route path="ZSalas/" element={<Home />} />
+		<Routes>
+			<Route path="/" element={<Home />} />
 			<Route path="/ZSalas/ContactMe" element={<ContactMe />} />
 			<Route path="/*" element={<Navigate to="/" />} />
 		</Routes>

@@ -38,7 +38,7 @@ const Navbar = () => {
 					<Link to="/" className="hover:text-green-800 text-green-500">
 						Home
 					</Link>
-					<Link to="/Zadiel-Salas/ContactMe" className="text-red-500 hover:text-red-800">
+					<Link to="/ZSalas/ContactMe" className="text-red-500 hover:text-red-800">
 						Contact Me
 					</Link>
 				</div>
@@ -57,7 +57,7 @@ const Navbar = () => {
 						<Link to="/" className="block py-2 px-4 hover:bg-gray-700 rounded">
 							Home
 						</Link>
-						<Link to="/Zadiel-Salas/ContactMe" className="block py-2 px-4 hover:bg-gray-700 rounded">
+						<Link to="/ZSalas/ContactMe" className="block py-2 px-4 hover:bg-gray-700 rounded">
 							Contact Me
 						</Link>
 					</div>

@@ -86,7 +86,7 @@ const Content = () => {
 				className="bg-black text-center min-h-screen flex flex-col md:flex-col lg:flex-row justify-center items-center px-5 py-28 text-white w-[100%]"
 			>
 				<AnimationLeftToRight>
-					<div className='text-center md:text-center lg:text-start'>
+					<div className="text-center md:text-center lg:text-start">
 						<h2 className="text-2xl md:text-4xl font-semibold mb-4 text-cyan-500">Technologies that I use</h2>
 						<p className="text-gray-400 max-w-2xl mb-8">
 							I have solid knowledge in various web development technologies, which allow us to create efficient and modern solutions. From using
@@ -111,7 +111,7 @@ const Content = () => {
 							</h2>
 							<p className="mb-5 text-base text-gray-700 md:text-lg">You will see how I can make your idea come true, let's create something great</p>
 							<div className="mb-10 md:mb-16 lg:mb-20">
-								<Btn1 red="/ContactMe" color="bg-blue-500 text-black hover:text-black hover:bg-blue-800" title="Contact Me" />
+								<Btn1 red="/ZSalas/ContactMe" color="bg-blue-500 text-black hover:text-black hover:bg-blue-800" title="Contact Me" />
 							</div>
 						</div>
 					</div>
