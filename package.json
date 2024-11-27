@@ -1,7 +1,7 @@
 {
   "name": "reactapp",
   "private": true,
-  "homepige": "http:/yz-salas.github.io/ZSalas",
+  "homepage": "http:/yz-salas.github.io/ZSalas",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
