@@ -111,7 +111,7 @@ const Content = () => {
 							</h2>
 							<p className="mb-5 text-base text-gray-700 md:text-lg">You will see how I can make your idea come true, let's create something great</p>
 							<div className="mb-10 md:mb-16 lg:mb-20">
-								<Btn1 red="/ZSalas/ContactMe" color="bg-blue-500 text-black hover:text-black hover:bg-blue-800" title="Contact Me" />
+								<Btn1 red="/ContactMe" color="bg-blue-500 text-black hover:text-black hover:bg-blue-800" title="Contact Me" />
 							</div>
 						</div>
 					</div>
